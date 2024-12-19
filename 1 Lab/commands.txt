@@ -1,0 +1,4 @@
+sudo systemctl daemon-reload
+sudo systemctl start backup_daemon.service
+sudo systemctl status backup_daemon.service
+sudo systemctl stop backup_daemon.service

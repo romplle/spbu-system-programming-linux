@@ -1,0 +1,11 @@
+[Unit]
+Description=Data Backup Service
+
+[Service]
+User=romplle
+ExecStart=/usr/bin/python3 /home/romplle/system-programming-linux/1 Lab/backup_daemon.py
+
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
